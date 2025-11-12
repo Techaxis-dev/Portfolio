@@ -28,7 +28,7 @@ header {
     font-size: 15px;
     font-style: italic;
     font-weight: 600;
-    padding-top: 13px;
+    padding-top: 16px;
 }
 
 ul {
@@ -65,6 +65,9 @@ ul {
     li {
         padding-bottom: 7px;
     }
+}
+@media(max-width:325px){
+    
 }
 
 /* hero-sect */
@@ -181,7 +184,8 @@ ul {
     }
 
     .hero-img {
-        width: 200px;
+        width: 28
+        0px;
     }
 }
 
@@ -198,14 +202,13 @@ ul {
     .job {
         font-size: 25px;
     }
-
-    .hero-img {
-        margin: 50px 50px;
-        width: 300px;
+    .hero-img{
+        width: 250px;
     }
-}
 
-@media(max-width:325px) {
+    
+}
+@media(max-width:350px) {
     .hero-sect {
         flex-direction: column-reverse;
         justify-content: space-between;
@@ -220,29 +223,13 @@ ul {
     }
 
     .hero-img {
-        margin: 50px 50px;
-        width: 80%;
-        display: none;
+        margin: 2px 50px;
+        width: 250px;
     }
 }
 
-@media(max-width:236px) {
-    .hero-sect {
-        flex-direction: column-reverse;
-        justify-content: space-between;
-    }
-
-    .name {
-        font-size: 25px;
-    }
-
-    .job {
-        font-size: 15px;
-    }
-
+@media(max-width:290px) {
     .hero-img {
-        margin: 50px 50px;
-        width: 80%;
         display: none;
     }
 }
@@ -803,12 +790,11 @@ ul {
 }
 
 @media(max-width:325px) {
-    .papperr1 img {
-        display: none;
+    .papperr1{
+        width: 250px;
     }
-
-    .papperr2 img {
-        display: none;
+    .papperr2{
+        width: 250px;
     }
 }
 
@@ -858,7 +844,7 @@ ul {
 
 .aboutme {
     text-decoration: underline;
-    color: wheat;
+    color: white;
     margin-bottom: 30px;
     font-size: 20px;
 
@@ -870,7 +856,7 @@ ul {
     margin-bottom: 30px;
     padding: 2px;
     font-size: 17px;
-    color: wheat;
+    color: white;
     font-style: italic;
 }
 
@@ -895,6 +881,7 @@ ul {
     margin-bottom: 30px;
     text-align: center;
     font-style: italic;
+    margin-top: 20px;
 }
 
 .logos {
@@ -907,7 +894,13 @@ ul {
     margin: auto;
     width: 500px;
     margin: auto;
+    /* border: 2px solid green; */
 }
+.cs{
+    /* border: 2px solid red; */
+    margin-bottom: 1px;
+}
+
 
 .css:hover {
     animation-name: css;
@@ -1109,15 +1102,20 @@ ul {
 .section-4 {
     background-color: #0C0898;
     box-shadow: 0px 0px 2px 2px #B0A0FC;
-
+    /* margin-top: 10px; */
+    position: relative;
 }
 
 .section-4 h1 {
-    text-align: center;
     color: white;
     font-style: italic;
     text-decoration: underline;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding-top: 15px;
 }
 
 .services {
@@ -1178,6 +1176,7 @@ ul {
     font-style: italic;
     text-decoration: underline;
     /* border: 2px solid red; */
+    padding-top: 15px;
 }
 
 .contact {
@@ -1274,18 +1273,29 @@ textarea {
         display: block;
     }
 
-    .fa-brands {
+    .twitter {
         margin-left: 10px;
     }
 }
 
 @media(max-width:406px) {
     input {
-        width: 150px;
+        width: 260px;
+    }
+    .fill {
+        display: block;
+        /* border: 2px solid red; */
+        
     }
 
     textarea {
         width: 300px;
+    }
+    .send{
+        margin-left: 65px;
+    }
+    .twitter{
+        margin-left: 65px;
     }
 }
 @media(max-width:325px){
@@ -1293,11 +1303,32 @@ textarea {
         display: block;
     }
     textarea{
-        margin-left: 5px;
+        width: 260px;
+    }
+    .send{
+        margin-left: 50px;
+    }
+    .twitter{
+        margin-left: 50px;
+    }
+}
+@media(max-width:290px){
+    input{
+        /* border: 2px solid red; */
+        width: 200px;
+    }
+    textarea{
         width: 200px;
     }
 }
-
+@media(max-width:236px){
+    input{
+        width: 150px;
+    }
+    textarea{
+        width: 150px;
+    }
+}
 footer {
     color: black;
     margin: 10px;
@@ -1336,6 +1367,19 @@ footer a {
     }
 
     footer span {
+        margin-top: 20px;
+    }
+}
+@media(max-width:321px){
+    footer span {
+        font-size: 13px;
+    }
+}
+@media(max-width:270px){
+    footer span {
+        display: none;
+    }
+    .top{
         margin-top: 20px;
     }
 }
