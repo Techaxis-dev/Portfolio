@@ -792,6 +792,9 @@ ul {
         margin-left: 20px;
     }
 
+    .papperr2{
+        height: 510px;
+    }
     .papperr2 img {
         width: 170px;
         margin-left: 20px;
@@ -799,7 +802,14 @@ ul {
         margin-bottom: 20px;
     }
 }
-
+@media(max-width:313px){
+    .papperr1 img{
+        display: none;
+    }
+    .papperr2 img{
+        display: none;
+    }
+}
 @media(max-width:236px) {
     .section-2 {
         display: none;
