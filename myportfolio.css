@@ -798,7 +798,7 @@ ul {
     .papperr2 img {
         width: 170px;
         margin-left: 20px;
-        border: 2px solid green;
+        /* border: 2px solid green; */
         margin-bottom: 20px;
     }
 }
