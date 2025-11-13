@@ -283,7 +283,7 @@ ul {
     width: 530px;
     padding: 10px;
     font-size: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 1px;
 }
 
 .papperr1 img {
@@ -302,7 +302,7 @@ ul {
 }
 
 .papperr2 h1 {
-    margin-bottom: 8px;
+    margin-bottom: 1px;
     padding: 10px;
 }
 
@@ -791,9 +791,11 @@ ul {
         width: 170px;
         margin-left: 20px;
     }
-
+    .papperr1{
+        height: 520px;
+    }
     .papperr2{
-        height: 510px;
+        height: 520px;
     }
     .papperr2 img {
         width: 170px;
@@ -1082,6 +1084,9 @@ ul {
     .logos {
         display: block;
     }
+    .boost{
+        width: 35px;
+    }
 }
 
 @media(max-width:306px) {
@@ -1118,6 +1123,7 @@ ul {
     text-decoration: underline;
     font-weight: 600;
     padding-top: 15px;
+    margin-bottom: 30px;
 }
 
 .services {
