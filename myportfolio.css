@@ -860,7 +860,7 @@ ul {
 .aboutme {
     text-decoration: underline;
     color: white;
-    margin-bottom: 300px;
+    
     font-size: 20px;
 }
 
@@ -889,6 +889,34 @@ ul {
     text-decoration: none;
 }
 
+.skills {
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 1em;
+    margin-bottom: 10px;
+    margin: auto;
+    width: 500px;
+    margin: auto;
+}
+
+.css:hover {
+    animation-name: css;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
 /* Skills Section */
 .skills-section {
     width: 90%;
@@ -897,6 +925,8 @@ ul {
     font-family: Arial, sans-serif;
     color: #ffffff;
     background-color: #2722b6;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px #B0A0FC;
     margin-top: 30px;
     padding: 10px;
 }
@@ -904,6 +934,7 @@ ul {
 .title {
     text-align: center;
     background: #0A067C;
+    box-shadow: 0px 0px 1px 1px #B0A0FC;
     color: #FFFFFF;
     padding: 8px 20px;
     display: inline-block;
@@ -1278,6 +1309,7 @@ textarea {
     width: 100%;
     padding: 12px;
     background: #0a067c;
+    box-shadow: 0px 0px 5px 5px #B0A0FC;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -1314,7 +1346,54 @@ textarea {
     color: white;
 }
 
+@media(max-width:768px) {
+    .send a {
+        font-size: 16px;
+    }
 
+    .fa-brands {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:682px) {
+    .send {
+        margin-bottom: 30px;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .fa-brands {
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:406px) {
+    input {
+        width: 150px;
+    }
+
+    textarea {
+        width: 300px;
+    }
+}
+@media(max-width:325px){
+    .fill{
+        display: block;
+    }
+    textarea{
+        margin-left: 5px;
+        width: 200px;
+    }
+    .send{
+        margin-left: 70px;
+    }
+    .twitter{
+        margin-left: 70px;
+    }
+}
 
 footer {
     color: black;
