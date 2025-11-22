@@ -889,34 +889,6 @@ ul {
     text-decoration: none;
 }
 
-.skills {
-    font-size: 30px;
-    font-weight: 500;
-    text-decoration: underline;
-    color: white;
-    margin-bottom: 30px;
-    text-align: center;
-    font-style: italic;
-    padding-top: 15px;
-}
-
-.logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    gap: 1em;
-    margin-bottom: 10px;
-    margin: auto;
-    width: 500px;
-    margin: auto;
-}
-
-.css:hover {
-    animation-name: css;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
-}
 /* Skills Section */
 .skills-section {
     width: 90%;
@@ -1342,54 +1314,7 @@ textarea {
     color: white;
 }
 
-@media(max-width:768px) {
-    .send a {
-        font-size: 16px;
-    }
 
-    .fa-brands {
-        margin-bottom: 20px;
-    }
-}
-
-@media(max-width:682px) {
-    .send {
-        margin-bottom: 30px;
-    }
-
-    .contact {
-        display: block;
-    }
-
-    .fa-brands {
-        margin-left: 10px;
-    }
-}
-
-@media(max-width:406px) {
-    input {
-        width: 150px;
-    }
-
-    textarea {
-        width: 300px;
-    }
-}
-@media(max-width:325px){
-    .fill{
-        display: block;
-    }
-    textarea{
-        margin-left: 5px;
-        width: 200px;
-    }
-    .send{
-        margin-left: 70px;
-    }
-    .twitter{
-        margin-left: 70px;
-    }
-}
 
 footer {
     color: black;
