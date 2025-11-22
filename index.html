@@ -11,6 +11,7 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./myportfolio.css">
+    <script src="main.js" defer></script>
 </head>
 
 <body>
@@ -56,12 +57,13 @@
     <section class="hero-sect" id="section-1">
         <div class="hero-text">
             <h1 class="name">OLAYEYE <br> ENIOLA</h1>
-            <h2 class="job">Front-End<br> Developer</h2>
+            <h2 class="job">Fullstack<br> Developer</h2>
             <div class="icons">
                 <a href="https://x.com/Techaxis459404?t=nDiTsExb2D96Rdfykd_Luw&s=08 "><i
                         class="fa-brands fa-x-twitter"></i></a>
                 <a href="https://github.com/Techaxis-dev"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.instagram.com/techaxis00?igsh=bTVhNG92ZWdwY2t6"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.instagram.com/techaxis00?igsh=bTVhNG92ZWdwY2t6"><i
+                        class="fa-brands fa-square-instagram"></i></a>
             </div>
         </div>
 
@@ -77,7 +79,10 @@
             <div class="papperr1">
                 <h1>Project 1</h1>
                 <p class="pop">
-                    A responsive corporate website for CARBON, developed using HTML and CSS. The site features clean, modern design elements with an intuitive layout for easy navigation. It provides key information about the bank's services, products, and contact details, optimized for performance and accessibility across all devices.
+                    A responsive corporate website for CARBON, developed using HTML and CSS. The site features clean,
+                    modern design elements with an intuitive layout for easy navigation. It provides key information
+                    about the bank's services, products, and contact details, optimized for performance and
+                    accessibility across all devices.
                 </p>
                 <a href="https://getcarbon-orcin.vercel.app/"><img src="./image/cab.jpg" alt=""></a>
             </div>
@@ -133,12 +138,11 @@
                 <p class="info">I’m a dedicated Front-End Web Developer who loves creating smooth, reliable, and
                     visually clean business websites. I work with HTML, CSS and BOOTSTRAP to build responsive
                     designs that reflect each brand’s identity.</p>
-
                 <a href="" class="cv">Download CV</a>
             </div>
         </div>
 
-        <div class="skillssection">
+        <!-- <div class="skillssection">
             <p class="skills">Skills</p>
             <div class="logos">
                 <img src="./image/imgi_6_info-html.svg" alt="" class="css logo">
@@ -149,7 +153,54 @@
                 <img src="./image/boostrapp.png" alt="" class="css boost logo">
                 <p>BOOTSTRAP</p>
             </div>
+        </div> -->
+
+        <div class="skills-section" id="skills">
+            <h2 class="title">My Skills</h2>
+
+            <div class="skill">
+                <p>HTML <span>80%</span></p>
+                <div class="bar">
+                    <div class="fill" data-width="80%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>CSS <span>75%</span></p>
+                <div class="bar">
+                    <div class="fill" data-width="75%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>BOOTSTRAP <span>25%</span></p>
+                <div class="bar">
+                    <div class="fill" data-width="25%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>JAVASCRIPT <span>5%</span></p>
+                <div class="bar">
+                    <div class="fill" data-width="5%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>REACT JS <span>2%</span></p>
+                <div class="bar">
+                    <div class="fill" data-width="2%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>ANGULAR JS <span>2%</span></p>
+                <div class="bar">
+                    <div class="fill" data-width="2%"></div>
+                </div>
+            </div>
         </div>
+
         A
     </section>
 
@@ -175,34 +226,31 @@
 
 
     <section class="section-5" id="section-5">
-        <h1>CONTACT ME</h1>
-        <div class="contact">
-            <form action="">
-                <div class="fill">
-                    <label for="name"></label>
-                    <input type="text" placeholder="name" required>
-                    <label for="email"></label>
-                    <input type="email" placeholder="email" required>
-                </div>
+        <div class="form-container">
+            <h2>Contact Me</h2>
 
-                <div class="fill massage">
-                    <label for="massage"></label>
-                    <textarea name="massage" id="massage" cols="49" rows="7" placeholder="Massage" required></textarea>
-                </div>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
 
-                <button type="submit" class="send">Send Massage</button>
+                <button class="send-btn" type="submit">
+                    Send
+                </button>
             </form>
+        </div>
 
 
 
 
 
-            <div class="icons">
-                <a href="https://x.com/Techaxis459404?t=nDiTsExb2D96Rdfykd_Luw&s=08 "><i
-                        class="fa-brands fa-x-twitter twitter"></i></a>
-                <a href="https://github.com/Techaxis-dev"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.instagram.com/techaxis00?igsh=bTVhNG92ZWdwY2t6 "><i class="fa-brands fa-square-instagram"></i></a>
-            </div>
+        <div class="icons">
+            <a href="https://x.com/Techaxis459404?t=nDiTsExb2D96Rdfykd_Luw&s=08 "><i
+                    class="fa-brands fa-x-twitter twitter"></i></a>
+            <a href="https://github.com/Techaxis-dev"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/techaxis00?igsh=bTVhNG92ZWdwY2t6 "><i
+                    class="fa-brands fa-square-instagram"></i></a>
+        </div>
         </div>
         A
     </section>
